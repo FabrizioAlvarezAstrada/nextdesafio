@@ -1,0 +1,51 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat" default;
+  margin: 0%;
+}
+
+body {
+  height: 100dvh;
+  width: 100%;
+
+  overflow: hidden;
+  margin: 0px;
+}
+
+#MainBody {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+#PageBody {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+#Background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 40px;
+  background: rgb(226, 226, 226);
+  border: solid black;
+  border-radius: 20px;
+}
+
+/*#Titulo {
+
+}*/

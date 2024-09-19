@@ -1,0 +1,34 @@
+#Background {
+    gap: 10px;
+}
+
+#Tarefa {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    height: 50px;
+    width: 100%;
+
+    background-color: rgb(173, 173, 173);
+    padding: 4px;
+    border-radius: 5px;
+
+    list-style: none;
+}
+
+#TarefaBotao {
+    border: solid black 2px;
+    border-radius: 6px;
+}
+
+#Lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 400px;
+    width: 300px;
+    padding: 0px;
+    gap: 6px;
+}
