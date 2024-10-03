@@ -14,12 +14,42 @@
     padding: 4px;
     border-radius: 5px;
 
+    transition: 140ms;
     list-style: none;
 }
 
 #TarefaBotao {
     border: solid black 2px;
     border-radius: 6px;
+    transition: 200ms;
+}
+
+#TarefaBotao:hover {
+    margin-right: 3px;
+    margin-left: 3px;
+    transform: scale(1.1);
+}
+
+#Editando {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    height: 23px;
+    width: 100%;
+
+    background-color: rgb(173, 173, 173);
+    padding: 4px;
+    border-radius: 5px;
+
+    transition: 140ms;
+    list-style: none;
+}
+
+#TarefaMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
 }
 
 #Lista {
